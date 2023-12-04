@@ -11,11 +11,6 @@ const FLOWS = {
       name: "Lily",
       title: "CEO/COO/CFO",
     },
-    {
-      email: "change to your own email",
-      name: "Doom",
-      title: "SNSB BOD",
-    },
   ],
 };
 
