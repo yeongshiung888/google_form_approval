@@ -1,15 +1,25 @@
+const SHEETID = '159AfvMLo8Ph97sdDkuSjwmZ_vXwHTmnDklbwjSy1hNA';
+const sheet = SpreadsheetApp.openById(SHEETID).getSheetByName('data');
+const data = sheet.getDataRange().getValues();
+const testing_0 = data[0][0];
+const testing_1 = data[0][1];
+const testing_2 = data[0][2];
+const testing_3 = data[1][0];
+const testing_4 = data[1][1];
+const testing_5 = data[1][2];
+
 // Define the approval flows in this object
 const FLOWS = {
   defaultFlow: [
     {
-      email: "change to your own email",
-      name: "Jessica",
-      title: "HOD",
+      email: testing_0,
+      name: testing_1,
+      title: testing_2,
     },
     {
-      email: "change to your own email",
-      name: "Lily",
-      title: "CEO/COO/CFO",
+      email: testing_3,
+      name: testing_4,
+      title: testing_5,
     },
   ],
 };
